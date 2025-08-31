@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portafolio Juan David Martínez Rojas</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="proyectos.html">Proyectos</a>
+          </li>
+          <li><a href="">contactame</a></li>
+          <li>
+            <a href="index.html">volver al inicio</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <fieldset border="1">
+            <legend>Hagamos un proyecto juntos</legend>
+            <form action="" method="get">
+              <label for="name">nombre</label>
+              <input type="text" id="name" name="numero" required />
+              <button>Enviar</button>
+              <div>
+                <label for="lastname">Apellido</label>
+                <input type="text" id="lastname" name="texto" required />
+                <button type="submit">Enviar</button>
+              </div>
+              <div>
+                <label for="telefono">Teléfono</label>
+                <input type="number" name="text" id="telefono" required />
+                <button type="submit">Enviar</button>
+              </div>
+              <div>
+                <label for="ciudad">Ciudad</label>
+                <input name="text" id="ciudad" required />
+                <button type="submit">Enviar</button>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  inputmode="email"
+                  pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+                  title="Ingresa un correo válido "
+                />
+                <button type="submit">Enviar</button>
+              </div>
+              <label for="genero">Másculino</label>
+              <input type="radio" name="text" id="genero" value="Másculino" />
+              <label for="generom">Femenino</label>
+              <input type="radio" name="text" id="generom" value="Femenino" />
+              <div></div>
+              <div>
+                <label for="Recomendaciones">Recomendaciones</label><br />
+                <textarea
+                  id="Recomendaciones"
+                  rows="5"
+                  cols="50"
+                  required
+                ></textarea
+                ><br />
+                <button type="submit">Enviar</button>
+              </div>
+            </form>
+          </fieldset>
+        </section>
+      </article>
+    </main>
+    <aside></aside>
+  </body>
+</html>
